@@ -1,3 +1,3 @@
 # John baskerville
 
-[Baskeville](https://flinkfeltm.github.io/baskerville/baskerville.html)
+[Baskeville](https://flinkfeltm.github.io/baskerville/john-baskerville.html)
