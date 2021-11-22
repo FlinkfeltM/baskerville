@@ -1,0 +1,155 @@
+/* -- CSS RESET --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*-- Main structual styling--*/
+
+body {
+    background: #f7f7f7;
+    color: #333
+
+}
+
+section, header {
+    width:80%;
+    max-width: 700px;
+    margin: auto;
+}
+/*-- styling typography--*/
+h1, h2, blockquote {
+    color: rgb(63, 42, 73);
+
+}
+
+p, blockquote, hr {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+
+}
+
+h1 {
+    font-size: 5.653rem;
+    margin-top: 2em;
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 3em 0 1em 0;
+
+}
+
+hr {
+    margin: 6em 0 0 0 
+}
+blockquote {
+    font-size: 1.414rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.648rem;
+    margin-top: 4.5rem;
+}
+cite {
+    font-size: 0.8em;
+    color: #333;
+    font-style: normal;
+
+}
+
+header h2 {
+    font-size: 2.827rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color:rgb(72, 45, 87);
+}
+
+header p {
+    font-size: 1.3rem;
+}
+
+/*--  styling links--*/
+a {
+color: rgb(113, 14, 126);
+text-decoration: none;
+}
+a:hover {
+    color:rgb(51, 97, 110);
+    border-bottom: 2px dotted;
+}
+
+li {
+    color: #f7f7f7;
+}
+
+/*--Styling nav--*/
+
+nav {
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0;
+    width: 100%;
+    background: rgb(63, 42, 73);
+    padding: 2em 0;
+    font-size: 0.75rem;
+}
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color:#f7f7f7;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color:rgb(112, 99, 117);
+    transition: all 0.3s ease-in-out;
+}
+hr{
+    margin: 100px 0;
+    height:1px;
+    background-color:rgb(63, 42, 73);
+    color: rgb(63, 42, 73);
+    border:0 none;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 4rem 0 3em
+}
+
+/*--experimental--*/
+
+.top {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 35px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(63, 42, 73);; /* Set a background color */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+.top a {
+    color: #f7f7f7; /* Text color */
+}
+
+html{
+    scroll-behavior: smooth;
+}
